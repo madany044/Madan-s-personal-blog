@@ -3,29 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <title>Madan’s Blog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
   <header>
-    <h1>Welcome to My Blog</h1>
-    <p>by Madan Y</p>
-    <nav>
-  <a href="index.html">Home</a> |
-  <a href="about.html">About</a>
+    <div class="container">
+      <h1>Madan’s Blog</h1>
+      <p class="tagline">Sharing my journey & thoughts</p>
+      <nav>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <button id="themeToggle">🌙</button>
 </nav>
 
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <h2>Articles</h2>
-    <ul>
-      <li><a href="articles/my-first-article.html">My First Article</a></li>
-      <li><a href="articles/my-second-article.html">My Second Article</a></li>
-    </ul>
+  <main class="container">
+    <section class="intro">
+      <h2>Welcome!</h2>
+      <p>This is my personal blog where I write about what I learn, build, and experience. Check out my latest articles below.</p>
+    </section>
+
+    <section class="articles">
+      <article>
+        <h3><a href="articles/my-first-article.html">My First Article</a></h3>
+        <p>A short intro about my first article. <a href="articles/my-first-article.html">Read more →</a></p>
+      </article>
+      <article>
+        <h3><a href="articles/my-second-article.html">My Second Article</a></h3>
+        <p>A short intro about my second article. <a href="articles/my-second-article.html">Read more →</a></p>
+      </article>
+    </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Madan Y</p>
+    <p>&copy; 2025 Madan Y. All rights reserved.</p>
   </footer>
+  <button id="backToTop">↑ Top</button>
+<script src="script.js"></script>
 </body>
 </html>
+
+

@@ -1,44 +1,127 @@
-
-
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
+  background-color: #f4f4f9;
   color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 header {
-  background-color: #4CAF50;
-  color: white;
-  padding: 1rem;
+  background: #2c3e50;
+  color: #fff;
+  padding: 20px 0;
   text-align: center;
 }
 
-main {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 0 15px;
+header .tagline {
+  font-size: 1rem;
+  color: #bdc3c7;
+  margin-top: 5px;
 }
 
-footer {
-  text-align: center;
-  font-size: 0.9rem;
-  color: #777;
-  margin-top: 40px;
-  padding: 10px 0;
-}
 nav {
   margin-top: 10px;
 }
 
 nav a {
-  color: white;
-  text-decoration: none;
+  color: #ecf0f1;
   margin: 0 10px;
+  text-decoration: none;
 }
 
 nav a:hover {
   text-decoration: underline;
+}
+
+main {
+  padding: 20px 0;
+}
+
+.intro {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 4px solid #3498db;
+}
+
+.articles article {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+}
+
+.articles article h3 {
+  margin-top: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 15px 0;
+  color: #888;
+  font-size: 0.9rem;
+}
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+}
+
+#backToTop:hover {
+  background-color: #2980b9;
+}
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #eee;
+}
+
+body.dark-mode header {
+  background: #000;
+}
+
+body.dark-mode .intro,
+body.dark-mode .articles article {
+  background: #2c2c2c;
+  border-color: #444;
+}
+
+body.dark-mode a {
+  color: #4ea3f1;
+}
+
+
+nav a {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  background-color: #fff;
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
 }
