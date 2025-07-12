@@ -11,7 +11,7 @@ README.md
 
 ## 🌐 Live Demo
 - ✅ Visit the blog here:  
-- [https://madany044.github.io/Madan-personal-blog/](https://madany044.github.io/Madan-personal-blog/)
+- [https://madany044.github.io/Madan-personal-blog/](https://madany044.github.io/Madan-s-personal-blog/)
 
 ---
 
