@@ -1,11 +1,11 @@
-<<<<<<< HEAD
 README.md
 =======
-# Madan's Personal Blog
 
-🚀 **A modern, responsive personal blog website created by Madan Y.**
 
-- This is my personal blog where I share articles, projects, and thoughts about my journey as a Computer Science student.
+ # Madan's Personal Blog
+
+- **🌐 A modern, responsive personal blog built with HTML, CSS, and JavaScript — featuring light/dark theme, smooth animations, and a clean design.**
+
 
 ---
 
