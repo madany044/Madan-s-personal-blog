@@ -35,7 +35,7 @@
 
 ## 📬 Contact
 Feel free to reach out:  
-- Email: [your-email@example.com](mailto:your-email@example.com)
+- Email: [madanmadany2004@gmail.com](mailto:madanmadany2004@gmail.com)
 - GitHub: [madany044](https://github.com/madany044)
 
 ---
