@@ -23,4 +23,24 @@
 
 ---
 
+---
+
+## 🛠️ Technologies Used
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- GitHub Pages (for deployment)
+
+---
+
+## 📬 Contact
+Feel free to reach out:  
+- Email: [your-email@example.com](mailto:your-email@example.com)
+- GitHub: [madany044](https://github.com/madany044)
+
+---
+
+## 🤝 License
+This project is open for personal learning & practice.
+
 
